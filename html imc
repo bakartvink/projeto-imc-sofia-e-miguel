@@ -1,0 +1,30 @@
+<html lang="pt-br">
+<head><link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class = tela1>
+<h1>Calculadora IMC</h1>
+  <p>Veja possibilidade de dietas aqui:</p>
+  <form>
+    <a href="https://br.yourketo.diet/?utm_campaign=YourKeto_Brazil_ES&utm_creative=KD&utm_medium=cpc&utm_source=google">
+        <input id='btn_dieta' class='botao2' type="button" value="Dietas">
+    </a>
+</form>
+<form>
+<p>Digite seu peso:</p>
+</form>
+<input id='peso' type='number'/>
+  <span>Kg</span>
+<div>
+<p>Digite sua altura:</p>
+<input id='altura' type='number'/>
+ <span>Cm</span>
+</div>
+<div>
+<input id='btn_calcular' class='botao' type="button" value="Calcular">
+</div>
+<div id="resultado"></div>
+</div>
+</body>
+</html>
